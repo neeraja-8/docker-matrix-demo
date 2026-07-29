@@ -1,0 +1,1 @@
+console.log("Front application is running");

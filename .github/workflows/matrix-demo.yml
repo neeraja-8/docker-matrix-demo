@@ -1,0 +1,21 @@
+name: Matrix Demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print-folders:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        path:
+          - front
+          - backend
+          - api
+
+    steps:
+      - name: Print Folder
+        run: echo "Building ${{ matrix.path }}"
