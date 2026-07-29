@@ -32,4 +32,4 @@ jobs:
           context: ./${{ matrix.path }}
           file: ./${{ matrix.path }}/Dockerfile
           push: true
-          tags: pranavi1612/${{ matrix.path }}:latest
+          tags: neeraja21/${{ matrix.path }}:latest
