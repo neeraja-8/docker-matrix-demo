@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         path:
-          - front
+          - frontend
           - backend
           - api
 
